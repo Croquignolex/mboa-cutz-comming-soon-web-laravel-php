@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Non localized routes
+Route::post('/timezone', 'HomeController@timezoneAjax');
+
+// Localized routes
+Route::get('/{language?}', 'HomeController@index')->name('home');

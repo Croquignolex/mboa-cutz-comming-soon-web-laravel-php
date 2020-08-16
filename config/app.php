@@ -80,7 +80,20 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'fr',
+
+    /*
+   |--------------------------------------------------------------------------
+   | Application Locales Configuration
+   |--------------------------------------------------------------------------
+   |
+   | The application locales determines the available locales that will be used
+   | in this app. You are free to set this value to any list of locales
+   | which will be supported by the application.
+   |
+   */
+
+    'locales' => ['fr', 'en'],
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +106,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'fr',
 
     /*
     |--------------------------------------------------------------------------
