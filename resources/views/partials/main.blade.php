@@ -75,5 +75,6 @@
         </div>
 
         <div class="home-content__line"></div>
+{{--        <img src="{{ flag_img_asset('en') }}" alt="...">--}}
     </div>
 </main>
