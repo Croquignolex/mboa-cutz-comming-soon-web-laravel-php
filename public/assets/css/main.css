@@ -1203,8 +1203,8 @@ input::-moz-focus-inner {
 }
 
 .home-logo img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 
 
@@ -1979,7 +1979,7 @@ html.no-csstransitions .home-content__main {
   height: 100%;
   background-color: #111111;
   color: rgba(255, 255, 255, 0.3);
-  padding: 21rem 0 9rem;
+  padding: 10rem 0 9rem;
   overflow-y: auto;
   overflow-x: hidden;
   visibility: hidden;
@@ -2335,4 +2335,8 @@ html.no-csstransitions .home-content__main {
 
 }
 
-/*# sourceMappingURL=main.css.map */
+.language {
+  right: 10px;
+  bottom: 20px;
+  position: fixed;
+}

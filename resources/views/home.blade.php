@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="{{ current_language() }}">
+<html lang="{{ Illuminate\Support\Facades\App::getLocale() }}">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="{{ seo_description() }}">
-        <meta name="keywords" content="{{ seo_keywords() }}">
+        <meta name="description" content="Baber shop">
+        <meta name="keywords" content="mboa,cutz,hair,men,baber">
         <meta name="author" content="Alex NGOMBOL">
 
         <title>Accueil - MBOA CUTZ</title>

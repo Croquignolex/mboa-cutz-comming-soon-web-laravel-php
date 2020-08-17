@@ -16,13 +16,11 @@ return [
     "welcome" => "Bienvenue sur :app",
     "notify_me" => "Me notifier",
     "available_in" => "Disponible dans",
-    "welcome_description" => "Votre salon de coiffure ultra moderne",
-    "short_description" => ":app est plus qun salon de coiffure, c'est surtout une idée, un concept," .
-        "une philosophie, une meilleur façon de penser et de faire. Soyez parmis les prémiers a profiter" .
-        "a un profesionalisme jamais vue jusqu'à aujoudhui. Le meilleur est avenir",
-
+    "short_description_plus" => "Soyez parmis les prémiers à profiter de nos services.",
+    "welcome_description" => "Votre salon esthétique pour home ultra moderne",
+    "short_description" => "Nous somme :app, un babershop CAMEROUNAIS ultra moderne spécialisé pour " .
+        "hommes Afro, Asiatique et Européen. Nous sommes un concept, une philosphie, une autre façon de voire la coupe de cheveux.",
     "can_contact_us_by" => "Vous pouvez nous contacter à partir",
     "our_office" => "Nous somme situés à",
     "find_us" => "Retrouvez nous sur",
-
 ];

@@ -61,15 +61,3 @@ if(!function_exists('favicon_file_asset'))
         return env('PUBLIC_FOLDER') . '/assets/img/favicons/' . $file . '.' . $extension;
     }
 }
-
-if(!function_exists('flag_img_asset'))
-{
-    /**
-     * @param $flag
-     * @return string
-     */
-    function flag_img_asset($flag)
-    {
-        return env('PUBLIC_FOLDER') . '/assets/img/flags/' . $flag . '.png';
-    }
-}
