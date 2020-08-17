@@ -49,6 +49,19 @@ if(!function_exists('favicon_img_asset'))
     }
 }
 
+if(!function_exists('favicon_file_asset'))
+{
+    /**
+     * @param $file
+     * @param string $extension
+     * @return string
+     */
+    function favicon_file_asset($file, $extension = 'json')
+    {
+        return '/assets/img/favicons/' . $file . '.' . $extension;
+    }
+}
+
 if(!function_exists('flag_img_asset'))
 {
     /**
