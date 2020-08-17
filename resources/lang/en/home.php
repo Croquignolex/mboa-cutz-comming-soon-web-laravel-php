@@ -21,4 +21,8 @@ return [
         "a concept, a philosophy, a better way of thinking and doing. Be among the first to " .
         "benefit from a professionalism never seen before today. The best is yet to come",
 
+    "can_contact_us_by" => "You can contact us toward",
+    "our_office" => "We are located at",
+    "find_us" => "Find Us On",
+
 ];

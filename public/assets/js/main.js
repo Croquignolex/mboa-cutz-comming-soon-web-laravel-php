@@ -136,27 +136,26 @@
 
         if(locale === 'fr') {
             $.ajaxChimp.translations.es = {
-                'Envoyé': 'Envoie en cours...',
-                0: '<i class="fas fa-check"></i> Merci',
-                1: '<i class="fas fa-exclamation-triangle"></i>Vous devez entrer un address mail valide.',
-                2: '<i class="fas fa-exclamation-triangle"></i> L\'adresse mail n\'est pas valide.',
-                3: '<i class="fas fa-exclamation-triangle"></i> L\'adresse mail n\'est pas valide.',
-                4: '<i class="fas fa-exclamation-triangle"></i> L\'adresse mail n\'est pas valide.',
-                5: '<i class="fas fa-exclamation-triangle"></i> L\'adresse mail n\'est pas valide.'
+                'Envoyé': 'En cours...',
+                0: '<i class="fas fa-check"></i> Merci. Vous serez contacté dans les plus bref délais.',
+                1: '<i class="fas fa-exclamation-triangle"></i> S\'il vous plais, entrez une valeur.',
+                2: '<i class="fas fa-exclamation-triangle"></i> Une adresse email doit avoir un caractère @.',
+                3: '<i class="fas fa-exclamation-triangle"></i> La partie du domaine n\'est pas valide (la portion après le @: ).',
+                4: '<i class="fas fa-exclamation-triangle"></i> La partie nom d\'utilisateur n\'est pas valide (la portion avant le @: ).',
+                5: '<i class="fas fa-exclamation-triangle"></i> L\'adresse mail n\'a pas l\'air valide. S\'il vous plais, entrez une adresse mail valide.'
             }
         } else {
             $.ajaxChimp.translations.es = {
-                'submit': 'Submitting...',
-                0: '<i class="fas fa-check"></i> Thank',
-                1: '<i class="fas fa-exclamation-triangle"></i> Thank you',
-                2: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
-                3: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
-                4: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
-                5: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.'
+                'Submited': 'Processing...',
+                0: '<i class="fas fa-check"></i> Thank you. You will be contacted as soon as possible.',
+                1: '<i class="fas fa-exclamation-triangle"></i> Please enter a value',
+                2: '<i class="fas fa-exclamation-triangle"></i> An email address must contain a single @.',
+                3: '<i class="fas fa-exclamation-triangle"></i> The domain portion of the email address is invalid (the portion after the @: ).',
+                4: '<i class="fas fa-exclamation-triangle"></i> The username portion of the email address is invalid (the portion before the @: ).',
+                5: '<i class="fas fa-exclamation-triangle"></i> This email address looks fake or invalid. Please enter a real email address.'
             }
         }
     };
-
 
    /* initialize
     * ------------------------------------------------------ */

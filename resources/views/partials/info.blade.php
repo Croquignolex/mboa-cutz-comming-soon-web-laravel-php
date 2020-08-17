@@ -2,68 +2,64 @@
     <div class="row info-wrapper">
 
         <div class="col-seven tab-full info-main">
-            <h1>We are Count. We make awesome stuff.</h1>
-            <p>
-                Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit,
-                eget tincidunt nibh pulvinar a. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-                Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula.
-            </p>
-
-            <p>
-                Officiis nostrum adipisci minima. Enim tenetur animi ipsum a itaque temporibus necessitatibus.
-                Dolores ad perspiciatis. Voluptatem et molestiae adipisci laboriosam assumenda. Deleniti vero
-                labore eos repudiandae. Vel commodi tenetur ex quia. Quisque velit nisi, pretium ut lacinia in,
-                elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere.
-            </p>
+            <h1>{{ env('APP_NAME') }}.</h1>
+            <iframe width="100%" height="500" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.975159429634!2d9.69788616525108!3d4.025480148261639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x106112c7426691ff%3A0x310e860af24cda5!2sBonapriso%2C%20Douala!5e0!3m2!1sfr!2scm!4v1597665163772!5m2!1sfr!2scm" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
 
         <div class="col-four tab-full pull-right info-contact">
 
             <div class="info-block">
-                <h3>Start A Conversation</h3>
+                <h3>{{ trans('home.can_contact_us_by') }}</h3>
                 <p>
-                    <a href="mailto:#0" class="info-email">mailus@ourwebsite.com</a><br>
-                    <a href="tel:+18587338912" class="'info-phone">+1.858.733.8912</a>
+                    <a href="mailto:#0" class="info-email">mboacutz@gmail.com</a><br>
+                    <a href="tel:+18587338912" class="'info-phone">+237 690 467 995</a>
                 </p>
             </div>
 
             <div class="info-block">
-                <h3>Visit Our Office</h3>
+                <h3>{{ trans('home.our_office') }}</h3>
 
                 <p class="info-address">
-                    1600 Amphitheatre Parkway<br>
-                    Mountain View, CA<br>
-                    94043 US
+                    Bonapriso<br>
+                    Douala, CAMEROUN<br>
                 </p>
             </div>
 
             <div class="info-block">
-                <h3>Find Us On</h3>
-
+                <h3>{{ trans('home.find_us') }}</h3>
                 <ul class="info-social">
                     <li>
-                        <a href="#0"><i class="fab fa-facebook" aria-hidden="true"></i>
-                            <span>Facebook</span></a>
+                        <a href="https://www.facebook.com/mboacutz" target="_blank">
+                            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            <span>Facebook</span>
+                        </a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i>
-                            <span>Twiiter</span></a>
+                        <a href="https://www.instagram.com/mboa_cutz/" target="_blank">
+                            <i class="fab fa-twitter" aria-hidden="true"></i>
+                            <span>Twiiter</span>
+                        </a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i>
-                            <span>Instagram</span></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-behance" aria-hidden="true"></i>
-                            <span>Behance</span></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i>
-                            <span>Dribbble</span></a>
+                        <a href="https://www.instagram.com/mboa_cutz/" target="_blank">
+                            <i class="fab fa-instagram" aria-hidden="true"></i>
+                            <span>Instagram</span>
+                        </a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
+
+    <div class="row home-copyright">
+        <span>Copyright MBOA CUTZ 2020</span>
+        <span>
+                Design by
+                <a href="https://croquignolex-tikiton.dmsemergence.com/" target="_blank">
+                    Croquignolex Tikiton
+                </a>
+            </span>
+    </div>
+
+    <div class="home-content__line"></div>
 </div>

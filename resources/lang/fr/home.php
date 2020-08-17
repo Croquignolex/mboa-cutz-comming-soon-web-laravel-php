@@ -21,4 +21,8 @@ return [
         "une philosophie, une meilleur façon de penser et de faire. Soyez parmis les prémiers a profiter" .
         "a un profesionalisme jamais vue jusqu'à aujoudhui. Le meilleur est avenir",
 
+    "can_contact_us_by" => "Vous pouvez nous contacter à partir",
+    "our_office" => "Nous somme situés à",
+    "find_us" => "Retrouvez nous sur",
+
 ];
