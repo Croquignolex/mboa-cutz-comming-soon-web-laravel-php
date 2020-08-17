@@ -12,6 +12,7 @@
         mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'   // mailchimp url
     },
 
+
     $WIN = $(window);
 
     // Add the User Agent to the <html>
@@ -24,6 +25,7 @@
         $(".home-logo img").attr("src", "images/logo.png");
     }
 
+    const locale = $('#main-bloc').data('locale');
 
    /* Preloader
     * -------------------------------------------------- */
@@ -89,14 +91,14 @@
     * ------------------------------------------------------ */
     var ssFinalCountdown = function() {
 
-        var finalDate =  new Date("March 25, 2021 15:37:25").getTime();
-        //-date: "Mar 25 2021",
+        const finalDate =  new Date("November 1, 2020 00:00:00").getTime();
+        const daysStr = locale === 'fr' ? 'Jour' : 'Day';
 
         $('.home-content__clock').countdown(finalDate)
         .on('update.countdown finish.countdown', function(event) {
 
             var str = '<div class=\"top\"><div class=\"time days\">' +
-                      '%D <span>day%!D</span>' + 
+                      '%D <span>'+ daysStr +'%!D</span>' +
                       '</div></div>' +
                       '<div class=\"time hours\">' +
                       '%H <span>H</span></div>' +
@@ -132,14 +134,26 @@
         //  4: 'The username portion of the email address is invalid (the portion before the @: )',
         //  5: 'This email address looks fake or invalid. Please enter a real email address'
 
-        $.ajaxChimp.translations.es = {
-            'submit': 'Submitting...',
-            0: '<i class="fas fa-check"></i> We have sent you a confirmation email',
-            1: '<i class="fas fa-exclamation-triangle"></i> You must enter a valid e-mail address.',
-            2: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
-            3: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
-            4: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
-            5: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.'
+        if(locale === 'fr') {
+            $.ajaxChimp.translations.es = {
+                'Envoyé': 'Envoie en cours...',
+                0: '<i class="fas fa-check"></i> Merci',
+                1: '<i class="fas fa-exclamation-triangle"></i>Vous devez entrer un address mail valide.',
+                2: '<i class="fas fa-exclamation-triangle"></i> L\'adresse mail n\'est pas valide.',
+                3: '<i class="fas fa-exclamation-triangle"></i> L\'adresse mail n\'est pas valide.',
+                4: '<i class="fas fa-exclamation-triangle"></i> L\'adresse mail n\'est pas valide.',
+                5: '<i class="fas fa-exclamation-triangle"></i> L\'adresse mail n\'est pas valide.'
+            }
+        } else {
+            $.ajaxChimp.translations.es = {
+                'submit': 'Submitting...',
+                0: '<i class="fas fa-check"></i> Thank',
+                1: '<i class="fas fa-exclamation-triangle"></i> Thank you',
+                2: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
+                3: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
+                4: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.',
+                5: '<i class="fas fa-exclamation-triangle"></i> E-mail address is not valid.'
+            }
         }
     };
 
