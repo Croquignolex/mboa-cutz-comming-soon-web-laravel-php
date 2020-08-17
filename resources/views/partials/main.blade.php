@@ -1,4 +1,4 @@
-<main class="s-home s-home--particles" id="main-bloc" data-locale="{{ current_language() }}">
+<main class="s-home s-home--particles" id="main-bloc" data-locale="{{ Illuminate\Support\Facades\App::getLocale() }}">
 
     <div id="particles-js" class="home-particles"></div>
 
@@ -20,6 +20,7 @@
                 <h1>{{ trans('home.welcome_description') }}</h1>
 
                 <p style="text-align: justify;text-justify: inter-word;">{{ trans('home.short_description', ['app' => env('APP_NAME')]) }}</p>
+                <p style="text-align: justify;text-justify: inter-word;">{{ trans('home.short_description_plus') }}</p>
 
                 <div class="home-content__subscribe">
                     <form id="mc-form" class="group" novalidate="true" method="POST">
@@ -62,6 +63,12 @@
                     <span>Instagram</span>
                 </a>
             </li>
+            <li>
+                <a href="{{ language_url() }}">
+                    <i class="fab fa-font-awesome-flag" aria-hidden="true"></i>
+                    <span>{{ language_title() }}</span>
+                </a>
+            </li>
         </ul>
 
         <div class="row home-copyright">
@@ -73,7 +80,5 @@
                 </a>
             </span>
         </div>
-
-        <div class="home-content__line"></div>
     </div>
 </main>
