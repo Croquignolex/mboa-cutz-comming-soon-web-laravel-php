@@ -17,7 +17,7 @@ return [
     "notify_me" => "Me notifier",
     "available_in" => "Disponible dans",
     "short_description_plus" => "Soyez parmis les prémiers à profiter de nos services.",
-    "welcome_description" => "Votre salon esthétique pour home ultra moderne",
+    "welcome_description" => "Votre salon esthétique pour homme ultra moderne",
     "short_description" => "Nous somme :app, un babershop CAMEROUNAIS ultra moderne spécialisé pour " .
         "hommes Afro, Asiatique et Européen. Nous sommes un concept, une philosphie, une autre façon de voire la coupe de cheveux.",
     "can_contact_us_by" => "Vous pouvez nous contacter à partir",
