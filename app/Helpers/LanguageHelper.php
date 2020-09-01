@@ -29,7 +29,8 @@ if(!function_exists('language_url'))
         {
             foreach ($languages as $lang)
             {
-                if(str_contains($fullUrl, $lang)) return str_replace($lang, $language, $fullUrl);
+                if(str_contains($fullUrl, '/' . $lang))
+                    return str_replace('/' . $lang, '/' . $language, $fullUrl);
             }
         }
 
