@@ -40,6 +40,7 @@
         ],
         "files": [
             "app/Helpers/PublicHelper.php",
+            "app/Helpers/GeneralHelper.php",
             "app/Helpers/LanguageHelper.php"
         ]
     },

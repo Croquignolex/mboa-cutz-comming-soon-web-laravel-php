@@ -1,4 +1,4 @@
-<main class="s-home s-home--particles" id="main-bloc" data-locale="{{ Illuminate\Support\Facades\App::getLocale() }}">
+<main class="s-home s-home--particles" id="main-bloc" data-locale="{{ current_language() }}">
 
     <div id="particles-js" class="home-particles"></div>
 
