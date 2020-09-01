@@ -59,6 +59,10 @@
                 <a href="{{ language_url() }}">
                     <i class="fab fa-font-awesome-flag" aria-hidden="true"></i>
                     <span>{{ language_title() }}</span>
+                    <br>
+                    <br>
+                    <br>
+                    {{language_url()}}
                 </a>
             </li>
         </ul>
