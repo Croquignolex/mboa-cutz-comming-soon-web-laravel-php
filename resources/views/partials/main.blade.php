@@ -21,14 +21,6 @@
 
                 <p style="text-align: justify;text-justify: inter-word;">{{ trans('home.short_description', ['app' => env('APP_NAME')]) }}</p>
                 <p style="text-align: justify;text-justify: inter-word;">{{ trans('home.short_description_plus') }}</p>
-
-                <div class="home-content__subscribe">
-                    <form id="mc-form" class="group" novalidate="true" method="POST">
-                        <input type="email" name="email" class="email" id="mc-email" placeholder="Email">
-                        <input type="submit" name="subscribe" value="{{ trans('home.notify_me') }}">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form>
-                </div>
             </div>
 
             <div class="col-four home-content__counter">

@@ -8,8 +8,8 @@
             <div class="info-block">
                 <h3>{{ trans('home.can_contact_us_by') }}</h3>
                 <p>
-                    <a href="mailto:#0" class="info-email">mboacutz@gmail.com</a><br>
-                    <a href="tel:+18587338912" class="'info-phone">+237 690 467 995</a>
+                    <a href="mailto:mboacutz@gmail.com" class="info-email">mboacutz@gmail.com</a><br>
+                    <a href="tel:+237690467995" class="'info-phone">+237 690 467 995</a>
                 </p>
             </div>
             <div class="info-block">
