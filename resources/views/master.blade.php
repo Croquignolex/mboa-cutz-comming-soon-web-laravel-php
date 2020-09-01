@@ -38,12 +38,16 @@
         <meta name="theme-color" content="#ffffff">
 
         @stack('master.style')
+        <link rel="stylesheet" href="{{ css_asset('master') }}" type="text/css">
 
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
     </head>
 
     <body>
         @yield('master.body')
+        <script src="{{ js_asset('jquery-3.2.1.min') }}" type="text/javascript"></script>
+        <script src="{{ js_asset('plugins') }}" type="text/javascript"></script>
+        <script src="{{ js_asset('polygons') }}" type="text/javascript"></script>
         @stack('master.script')
     </body>
 </html>

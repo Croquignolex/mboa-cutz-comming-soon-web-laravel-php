@@ -39,8 +39,8 @@
             "database/factories"
         ],
         "files": [
-            "app/Helpers/PageHelper.php",
             "app/Helpers/PublicHelper.php",
+            "app/Helpers/GeneralHelper.php",
             "app/Helpers/LanguageHelper.php"
         ]
     },

@@ -31,13 +31,8 @@
 
     <script src="{{ js_asset('modernizr') }}" type="text/javascript"></script>
     <script src="{{ js_asset('pace.min') }}" type="text/javascript"></script>
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap" rel="stylesheet">
 @endpush
 
 @push('master.script')
-    <script src="{{ js_asset('jquery-3.2.1.min') }}" type="text/javascript"></script>
-    <script src="{{ js_asset('plugins') }}" type="text/javascript"></script>
-    <script src="{{ js_asset('polygons') }}" type="text/javascript"></script>
     <script src="{{ js_asset('main') }}" type="text/javascript"></script>
 @endpush
