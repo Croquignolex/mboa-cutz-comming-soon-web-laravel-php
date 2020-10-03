@@ -1179,7 +1179,7 @@ input::-moz-focus-inner {
 
 .home-logo img {
   width: 100px;
-  height: 100px;
+  /*height: 100px;*/
 }
 
 
@@ -1913,7 +1913,7 @@ html.no-csstransitions .home-content__main {
 
   .home-logo img {
     width: 80px;
-    height: 80px;
+    /*height: 80px;*/
   }
 
   .home-content h1 {
