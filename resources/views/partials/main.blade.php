@@ -8,7 +8,7 @@
 
         <div class="home-logo">
             <a href="javascript: void(0)">
-                <img src="{{ img_asset('logo', 'jpg') }}" alt="Homepage">
+                <img src="{{ img_asset('logo-white') }}" alt="...">
             </a>
         </div>
 
@@ -44,7 +44,7 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.instagram.com/mboa_cutz/" target="_blank">
+                <a href="https://www.twitter.com/mboa_cutz/" target="_blank">
                     <i class="fab fa-twitter" aria-hidden="true"></i>
                     <span>Twiiter</span>
                 </a>

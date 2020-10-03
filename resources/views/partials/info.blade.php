@@ -29,7 +29,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/mboa_cutz/" target="_blank">
+                        <a href="https://www.twitter.com/mboa_cutz/" target="_blank">
                             <i class="fab fa-twitter" aria-hidden="true"></i>
                             <span>Twiiter</span>
                         </a>
