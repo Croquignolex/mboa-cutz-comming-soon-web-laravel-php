@@ -68,7 +68,7 @@
             <span>
                 Design by
                 <a href="https://croquignolex.mboacutz.com/" target="_blank">
-                    Croquignolex Tikiton
+                    Croquignolex
                 </a>
             </span>
         </div>
