@@ -91,7 +91,7 @@
     * ------------------------------------------------------ */
     var ssFinalCountdown = function() {
 
-        const finalDate =  new Date("November 2, 2020 00:00:00").getTime();
+        const finalDate =  new Date("November 3, 2020 00:00:00").getTime();
         const daysStr = locale === 'fr' ? 'Jour' : 'Day';
 
         $('.home-content__clock').countdown(finalDate)
